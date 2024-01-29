@@ -1,84 +1,37 @@
-# Technical Instructions
-1. Fork this repo to your local Github account.
-2. Create a new branch to complete all your work in.
-3. Test your work using the provided tests
-4. Create a Pull Request against the Shopify Main branch when you're done and all tests are passing
+# React Native Stopwatch App
+Welcome to the React Native Stopwatch App project! This application is designed to provide a simple and functional stopwatch with additional features such as lap recording.
 
-# Project Overview
-The goal of this project is to implement a stopwatch application using React Native and TypeScript. The stopwatch should have the following functionality:
+## 📖 About
+This project is a result of my work for the Technical Challenge for Shopify’s Engineering Internship program.
+I was provided with a basic project structure that included the necessary files and dependencies. My task was to write the code to implement the stopwatch functionality and ensure that it worked correctly.
+More details about the challenge you can see here [Shopify Mobile Technical Challenge](https://github.com/Shopify/eng-intern-assessment-react-native)
 
-- Start the stopwatch to begin counting time.
-- Stop the stopwatch to pause the timer.
-- Displays Laps when a button is pressed.
-- Reset the stopwatch to zero.
+## ⭐ Features
 
-You will be provided with a basic project structure that includes the necessary files and dependencies. Your task is to write the code to implement the stopwatch functionality and ensure that it works correctly.
+- The stopwatch features four buttons: Start, Stop, Lap, and Reset. Upon opening the app, only the Start button is enabled.
+- The stopwatch begins counting when the user clicks the Start button. Subsequently, the button's title changes to 'Pause' or 'Resume.' Upon pressing the Stop button, it reverts to 'Start.'
+- The stopwatch stops counting when the user clicks the stop button.
+- The stopwatch resets to zero when the user clicks the reset button.
+- The stopwatch records and displays laps when the user clicks the lap button.
+- The stopwatch determines the best and worst laps based on durations and renders them with different colours (red for the worst lap, green for the best).
 
-## Project Setup
-To get started with the project, follow these steps:
+## Demo Videos
+[iOS](https://share.vidyard.com/watch/kAnWxZ8f8Y5j32jKw1JnRU?)
 
-1. Clone the project repository to your local development environment.
-
-2. Install the required dependencies by running npm install in the project directory.
-
-3. Familiarize yourself with the project structure. The main files you will be working with are:
-    - /App.tsx: The main component that renders the stopwatch and handles its functionality.
-    - src/Stopwatch.tsx: A separate component that represents the stopwatch display.
-    - src/StopwatchButton.tsx: A separate component that represents the start, stop, and reset buttons.
-
-4. Review the existing code in the above files to understand the initial structure and component hierarchy.
-
-## Project Goals
-Your specific goals for this project are as follows:
-
-1. Implement the stopwatch functionality:
-    - The stopwatch should start counting when the user clicks the start button.
-    - The stopwatch should stop counting when the user clicks the stop button.
-    - The stopwatch should reset to zero when the user clicks the reset button.
-    - The stopwatch should record and display laps when user clicks the lap button.
-
-2. Ensure code quality:
-    - Write clean, well-structured, and maintainable code.
-    - Follow best practices and adhere to the React and TypeScript coding conventions.
-    - Pay attention to code readability, modularity, and performance.
-
-3. Test your code:
-    - Run the application and test the stopwatch functionality to ensure it works correctly.
-    - Verify that the stopwatch starts, stops, resets, and records laps as expected.
-
-4. Code documentation:
-    - Document your code by adding comments and explanatory notes where necessary.
-    - Provide clear explanations of the implemented functionality and any important details.
-
-5. Version control:
-    - Use Git for version control. Commit your changes regularly and push them to a branch in your forked repository.
-
- 6. Create a Pull Request:
-    - Once you have completed the project goals, create a pull request to merge your changes into the main repository.
-    - Provide a clear description of the changes made and any relevant information for the code review.
-
-## Getting Started
-To start working on the project, follow these steps:
-
-1. Clone the repository to your local development environment.
-
-2. Install the required dependencies by running npm install in the project directory.
-
-3. Open the project in your preferred code editor.
-
-4. Review the existing code in the src directory to understand the initial structure and component hierarchy.
-
-5. Implement the stopwatch functionality by modifying the necessary components (App.tsx, Stopwatch.tsx, StopwatchButton.tsx).
-
-6. Run the application using npm start and test the stopwatch functionality.
-
-7. Commit your changes regularly and push them to a branch in your forked repository.
-
-8. Once you have completed the project goals, create a pull request to merge your changes into the main repository.
+[Android](https://share.vidyard.com/watch/xNN6UHzvuNptGMSdwHBjpr?)
 
 ## Resources
-Here are some resources that may be helpful during your work on this project:
+Here are some resources that were helpful during my work on this project:
+
+- [React Native Documentation](https://reactnative.dev/docs/getting-started) - - Official documentation for React Native.
 
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/) - Official documentation for TypeScript, offering guidance on TypeScript features and usage.
 
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) - Explore React Testing Library, a popular testing library for React applications.
+
+<br>
+<br>
+<div align="center">
+  Made with 🧡 and ☕ | Find me on <a href="https://www.linkedin.com/in/vivianebresolin/"> LinkedIn</a>
+</div>
+<br>
