@@ -1,4 +1,4 @@
-# React Native Stopwatch App
+# React Native Stopwatch App ⏱
 Welcome to the React Native Stopwatch App project! This application is designed to provide a simple and functional stopwatch with additional features such as lap recording.
 
 ## 📖 About
@@ -15,15 +15,15 @@ More details about the challenge you can see here [Shopify Mobile Technical Chal
 - The stopwatch records and displays laps when the user clicks the lap button.
 - The stopwatch determines the best and worst laps based on durations and renders them with different colours (red for the worst lap, green for the best).
 
-## Demo Videos
+## 🎥 Demo Videos
 [iOS](https://share.vidyard.com/watch/kAnWxZ8f8Y5j32jKw1JnRU?)
 
 [Android](https://share.vidyard.com/watch/xNN6UHzvuNptGMSdwHBjpr?)
 
-## Resources
+## 🔗 Resources
 Here are some resources that were helpful during my work on this project:
 
-- [React Native Documentation](https://reactnative.dev/docs/getting-started) - - Official documentation for React Native.
+- [React Native Documentation](https://reactnative.dev/docs/getting-started) - Official documentation for React Native.
 
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/) - Official documentation for TypeScript, offering guidance on TypeScript features and usage.
 
